@@ -13,7 +13,7 @@ public class NegativeTests {
 	 * For testing Form Authentication page (wrong username)
 	 */
 	@Test
-	public void loginWrongUsernameTest() {
+	public void incorrectUsernameTest() {
 		System.out.println("Test started.");
 		
 		// 1. Create driver to send commands to browser
@@ -56,13 +56,13 @@ public class NegativeTests {
 		// 7. Quit driver
 		driver.quit();
 		System.out.println("Test finished.");
-	} // End loginWrongUsernameTest() method
+	} // End incorrectUsernameTest() method
 	
 	/**
 	 * For testing Form Authentication page (wrong password)
 	 */
 	@Test
-	public void loginWrongPasswordTest() {
+	public void incorrectPasswordTest() {
 		System.out.println("Test started.");
 		
 		// 1. Create driver to send commands to browser
@@ -105,7 +105,7 @@ public class NegativeTests {
 		// 7. Quit driver
 		driver.quit();
 		System.out.println("Test finished.");
-	} // End loginWrongPasswordTest() method
+	} // End incorrectPasswordTest() method
 	
 	/**
 	 *  Stop execution for a given amount of time in seconds
