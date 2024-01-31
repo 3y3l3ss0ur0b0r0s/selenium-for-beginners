@@ -14,7 +14,7 @@ public class NegativeTests {
 	 */
 	@Test
 	public void incorrectUsernameTest() {
-		System.out.println("Test started.");
+		System.out.println("Test started: incorrectUsernameTest()");
 		
 		// 1. Create driver to send commands to browser
 		WebDriver driver = new ChromeDriver();
@@ -63,7 +63,7 @@ public class NegativeTests {
 	 */
 	@Test
 	public void incorrectPasswordTest() {
-		System.out.println("Test started.");
+		System.out.println("Test started: incorrectPasswordTest()");
 		
 		// 1. Create driver to send commands to browser
 		WebDriver driver = new ChromeDriver();

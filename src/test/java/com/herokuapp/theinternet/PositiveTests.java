@@ -14,7 +14,7 @@ public class PositiveTests {
 	 */
 	@Test
 	public void loginTest() {
-		System.out.println("Test started.");
+		System.out.println("Test started: loginTest()");
 
 		// 1. Create driver to send commands to browser
 		WebDriver driver = new ChromeDriver();
